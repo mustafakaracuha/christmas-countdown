@@ -35,7 +35,7 @@ const index = () => {
       <img
         width={960}
         src={tree}
-        className="z-50 mt-[7rem] max-sm:mt-[25rem]"
+        className="z-50 mt-[7rem] max-sm:mt-[23rem] select-none"
       />
       <img
         width={100}
@@ -48,7 +48,7 @@ const index = () => {
         src={box1}
         className="absolute bottom-0 z-50 left-[15rem] max-sm:left-[5rem] max-sm:w-14 bounce-in-top"
       />
-      <img
+      <img  
         width={100}
         src={box2}
         className="absolute -bottom-5 z-50 left-[11rem] max-sm:left-[7rem] max-sm:w-14 bounce-in-top"

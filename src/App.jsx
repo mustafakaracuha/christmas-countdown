@@ -1,11 +1,11 @@
 import Snowfall from "react-snowfall";
-import CountDown from "./components/CountDown";
+import Content from "./components/Content";
 function App() {
   return (
-    <>
-      <CountDown />
+    <main>
+      <Content />
       <Snowfall snowflakeCount={300} wind={[4, 3]} />
-    </>
+    </main>
   );
 }
 

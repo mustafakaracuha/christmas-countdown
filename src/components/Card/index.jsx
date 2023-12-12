@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import confetti from "canvas-confetti";
 
+import Player from '../Player'
+
 function index({ open, setOpen }) {
   const newYearDate = new Date("January 1, 2024 00:00:00 GMT+00:00");
 
@@ -83,14 +85,14 @@ function index({ open, setOpen }) {
     <div
       className={
         !open
-          ? `w-[26rem] z-50 h-auto bg-white absolute -left-[45rem] max-sm:-left-[23rem] cursor-pointer transition-all duration-500 rounded-[30px] p-10`
-          : `w-[25rem] z-50 h-auto bg-white absolute -left-[15rem] max-sm:left-[2rem] cursor-pointer transition-all duration-500 rounded-[30px] p-10`
+          ? `w-[26rem] z-50 h-auto bg-white absolute -left-[45rem] max-sm:-left-[23rem] select-none transition-all duration-500 rounded-[30px] p-10`
+          : `w-[25rem] z-50 h-auto bg-white absolute -left-[15rem] max-sm:left-[4rem] select-none transition-all duration-500 rounded-[30px] p-10`
       }
     >
       <h1 className="text-3xl font-normal mb-0 font-serif ">
         🎄Yeni Yıl Geri Sayımı
       </h1>
-      <hr className="mb-5 mt-2" />
+      <hr className="mb-5 mt-3" />
       <p className="text-lg font-sans"> ⏳ Kalan Süre:</p>
       <p className="text-lg font-normal font-sans">
         🕐 {timeLeft.days} gün {timeLeft.hours} saat {timeLeft.minutes} dakika{" "}
@@ -115,6 +117,7 @@ function index({ open, setOpen }) {
       >
         {open ? "X" : ">"}
       </button>
+      <Player/>
     </div>
   );
 }
