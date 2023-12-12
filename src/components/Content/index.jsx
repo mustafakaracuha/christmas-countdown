@@ -36,7 +36,7 @@ const index = () => {
         <img
           width={960}
           src={tree}
-          className="z-50 mt-[7rem] max-sm:mt-[25rem] max-md:mt-[23rem] select-none"
+          className="z-50 fixed mt-[7rem] max-sm:mt-[25rem] max-md:mt-[23rem] select-none"
         />
         <div className="w-20 h-auto max-sm:absolute bg-red-400 max-sm:left-[0rem] md:left-[38rem] md:bottom-0 max-sm:bottom-0">
         <img
