@@ -2,10 +2,10 @@ import Snowfall from "react-snowfall";
 import Content from "./components/Content";
 function App() {
   return (
-    <main>
+    <div className="w-full h-full overflow-hidden">
       <Content />
       <Snowfall snowflakeCount={300} wind={[4, 3]} />
-    </main>
+    </div>
   );
 }
 

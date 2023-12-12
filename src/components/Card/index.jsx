@@ -85,8 +85,8 @@ function index({ open, setOpen }) {
     <div
       className={
         !open
-          ? `w-[26rem] z-50 h-auto bg-white absolute -left-[45rem] max-sm:-left-[23rem] select-none transition-all duration-500 rounded-[30px] p-10`
-          : `w-[25rem] z-50 h-auto bg-white absolute -left-[15rem] max-sm:left-[4rem] select-none transition-all duration-500 rounded-[30px] p-10`
+          ? `w-[26rem] z-50 h-auto bg-white absolute -left-[24rem] max-sm:-left-[23rem] select-none transition-all duration-500 rounded-[30px] p-10`
+          : `w-[25rem] z-50 h-auto bg-white absolute  left-[7rem] max-sm:left-[2.4rem] select-none transition-all duration-500 rounded-[30px] p-10`
       }
     >
       <h1 className="text-3xl font-normal mb-0 font-serif ">
