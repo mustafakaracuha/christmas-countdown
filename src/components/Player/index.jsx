@@ -6,6 +6,7 @@ const MusicPlayer = () => {
     <>
       <hr className="mt-5 mb-5" />
       <ReactAudioPlayer
+        autoPlay={false}
         className="w-full"
         id="audioPlayer"
         src={music}

@@ -36,30 +36,30 @@ const index = () => {
         <img
           width={960}
           src={tree}
-          className="z-50 fixed mt-[7rem] max-sm:mt-[25rem] max-md:mt-[23rem] select-none"
+          className="z-50 fixed mt-[7rem] sm:mt-[16rem] max-sm:mt-[23rem] md:mt-[7rem] lg:mt-[7rem] select-none"
         />
-        <div className="w-20 h-auto max-sm:absolute bg-red-400 max-sm:left-[0rem] md:left-[38rem] md:bottom-0 max-sm:bottom-0">
+        <div className="w-20 h-auto max-sm:absolute bg-red-400 max-sm:left-[0rem] md:bottom-0 max-sm:bottom-0">
         <img
           width={100}
           src={box3}
           id="my-canvas3"
-          className="absolute bottom-20 z-50 left-[38rem] max-sm:left-[8rem] max-sm:w-14 bounce-in-top"
+          className="absolute bottom-20 z-50 sm:left-[12rem]  md:left-[17rem] lg:left-[25rem] xl:left-[38rem] max-sm:left-[8rem] max-sm:w-14 bounce-in-top"
         />
         <img
           width={100}
           src={box1}
-          className="absolute bottom-16 z-50 left-[34rem] max-sm:left-[5rem] max-sm:w-14 bounce-in-top"
+          className="absolute bottom-16 z-50 sm:left-[9rem] md:left-[13rem] lg:left-[20em] xl:left-[34rem] max-sm:left-[5rem] max-sm:w-14 bounce-in-top"
         />
         <img
           width={100}
           src={box2}
-          className="absolute bottom-10 z-50 left-[30rem] max-sm:left-[7rem] max-sm:w-14 bounce-in-top"
+          className="absolute bottom-10 z-50 sm:left-[6rem] md:left-[10rem]  lg:left-[18rem] xl:left-[30rem] max-sm:left-[7rem] max-sm:w-14 bounce-in-top"
         />
         </div>
         <img
           width={180}
           src={snowman}
-          className="absolute bottom-20 z-50 right-[30rem] max-sm:right-[2rem] max-sm:w-32 cursor-pointer transition-all duration-300 hover:rotate-6"
+          className="absolute bottom-20 z-50 sm:right-[3rem] md:right-[10rem] lg:right-[18rem] xl:right-[30rem] max-sm:right-[2rem] max-sm:w-32 cursor-pointer transition-all duration-300 hover:rotate-6"
         />
         <Card open={open} setOpen={setOpen} />
       </div>
